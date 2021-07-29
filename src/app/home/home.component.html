@@ -1,0 +1,20 @@
+<div>
+    <span>Home Component</span>
+    <!-- property binding -->
+    <img [src]="image_path" />
+<!-- 
+    string interpollation -->
+    <p>{{home_title}}</p>
+
+
+    <br/>
+    <!-- event binding -->
+    <button (click)="changeTitle()">click here to change </button>
+ 
+    <!-- two way data binding -->
+
+     <input type="text" [(ngModel)]="dynamicContent"/>
+
+    <h2> Text : {{dynamicContent}} </h2>
+
+</div>
